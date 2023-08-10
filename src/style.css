@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+
+}
+
+.is-hidden {
+    display: none;
+}
+
+.cat-info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.catIMG {
+    object-fit: cover;
+    box-sizing: border-box;
+
+}
+
+.catDescr {
+    display: block;
+
+    background-color: yellow;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+.catTemp {
+    background-color: yellow;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
